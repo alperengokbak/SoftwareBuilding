@@ -1,0 +1,10 @@
+John, Smith, 35, 65000
+Sarah, Johnson, -3, 52000
+Michael, Davis, 42, 85000
+Emi54ly, Rodriguez,, 57000
+David, Lee, 48, 98000
+Jessica, Nguyen, 31, 69000
+Daniel, Garcia, 26, 46000
+,,,
+Kevin, Patel, 33, 60000
+Amanda, Martinez, 45, 89000
