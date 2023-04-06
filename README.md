@@ -45,3 +45,16 @@ In this lab work, you will implement the Battleship game in a class using Java. 
 </br>- Use each variable for one purpose only
 </br>- Short, meaningful names and describe the entity the variable represents.
 </br>- Constants are in ALL_CAPS separated by underscores
+</br>
+</br>
+-**Seventh Lab**
+</br>**Objective:**
+That week, write the ”IF-ELSE IF-ELSE” and ”SWITCH-CASE” versions code of the following program in Java.
+</br>
+**Roulette Simulation:** A roulette wheel has 38 spaces on it. Of these spaces, 18 are black, 18 are red, and two are green. The green spaces are numbered 0 and 00. The red spaces are numbered 1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30 32, 34 and 36. The remaining integers between 1 and 36 are used to number the black spaces.
+</br>
+Many different bets can be placed in roulette. We will only consider the following subset of them in this exercise:
+</br>- Single number (1 to 36, 0, or 00)
+</br>- Red versus Black
+</br>- Odd versus Even (Note that 0 and 00 do not pay out for even)
+</br>- 1 to 18 versus 19 to 36
