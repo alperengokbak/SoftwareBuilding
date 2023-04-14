@@ -58,3 +58,17 @@ Many different bets can be placed in roulette. We will only consider the followi
 </br>- Red versus Black
 </br>- Odd versus Even (Note that 0 and 00 do not pay out for even)
 </br>- 1 to 18 versus 19 to 36
+</br>
+</br>
+-**Eighth Lab**
+</br>**Description**
+Your task is to write a Java program that reads a file containing shape data and prints out the corresponding shape based on the data. The file will contain one line for each shape, and each line will contain the following information:
+</br>- The type of shape (square, rectangle, triangle, or circle)
+</br>- The length of the shape (an integer value)
+
+</br>**Requirements**
+</br>- Your program should be able to read a file containing shape data.
+</br>- The file will contain one line for each shape, and each line will contain the type of shape and the length of the shape.
+</br>- Your program should print out the corresponding shape based on user input and the data provided in the file. (Implement your print functions using loops. Maximize your use of repetition (with nested for statements))
+</br>- The shape should be printed using asterisks (*) or other characters to represent the shape.
+</br>- You will also use a do-while loop to repeatedly ask the user for input until they enter a negative value.
