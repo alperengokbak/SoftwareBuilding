@@ -72,3 +72,14 @@ Your task is to write a Java program that reads a file containing shape data and
 </br>- Your program should print out the corresponding shape based on user input and the data provided in the file. (Implement your print functions using loops. Maximize your use of repetition (with nested for statements))
 </br>- The shape should be printed using asterisks (*) or other characters to represent the shape.
 </br>- You will also use a do-while loop to repeatedly ask the user for input until they enter a negative value.
+</br>
+</br>
+-**Ninth Lab**
+</br>**Description**
+</br>- Your program should take the monthly energy consumption in kWh (float) as input from the user.
+</br>- Your program also should take the type of electricity usage (int) as input from the user. E.g. (1 – Residential, 2 – Industrial, 3- Communal )
+</br>- Your program should print the electric bill total at the end.
+</br>- In residential usage rate is 0.15 up to 120 kWh, 0.20 between 120-240 kWh, and 0.25 between 240
+kWh-1000 kWh.
+</br>- In industrial usage rate is 0.12 up to 120 kWh, 0.15 between 120-240 kWh, and 0.23 between 240 kWh-1000 kWh.
+</br>- In communal usage rate is 0.10 up to 120 kWh, 0.15 between 120-240 kWh and 0.20 between 240 kWh-1000 kWh.
