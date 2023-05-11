@@ -83,3 +83,65 @@ Your task is to write a Java program that reads a file containing shape data and
 kWh-1000 kWh.
 </br>- In industrial usage rate is 0.12 up to 120 kWh, 0.15 between 120-240 kWh, and 0.23 between 240 kWh-1000 kWh.
 </br>- In communal usage rate is 0.10 up to 120 kWh, 0.15 between 120-240 kWh and 0.20 between 240 kWh-1000 kWh.
+</br>
+</br>
+-**Tenth Lab**
+</br>**Description**
+</br>- Design two recursive function called floor and ceil. Functions described below.
+</br>- Given a sorted array of numbers(non-negative integers), your task is to find floor and ceil of a given number in array. The functions map the given number to the largest previous or the smallest following number. So ,
+</br>- floor(x) = returns largest number less than or equal to x (If there is no floor number in array, return -1).
+</br>- ceil(x) = return smallest number greater than or equal to x (If there is no ceil number in array, return -1).
+</br>- Hint : The idea is very similar to Binary Search. You can adopt it to find floor and ceil.
+</br>
+</br>
+-**Eleventh Lab**
+</br>**Description**
+</br>Make following code better using hints of week13-week14 slides. Add a loop for continuing triangle check or exit If you consider there is a mistake in the code you can correct it. No need to handle input errors but it is preferable.
+
+```1
+public class Main {
+    public static void main (String[] args) {
+        int edge1; 
+        int edge2;
+        int edge3;
+        int isittriangle = 0;
+
+        Scanner myObj = new Scanner (System.in);
+
+        System.out.println ("Please enter edge lengths.");
+        System.out.print("First:");
+
+        edge1 = myObj.nextInt();
+        System.out.print("Second:");
+        edge2 = myObj.nextInt();
+        System.out.print("Third:");
+        edge3 = myObj.nextInt();
+
+        if (edge1 + edge2 > edge3 && edge1 + edge3 > edge2 && edge2 + edge3 > edge1) {
+            System.out.print("These edges form ");
+            isittriangle = 1;
+        } else {
+        isittriangle = 0;
+        }
+
+        if (isittriangle == 1) {
+            if (edge1 == edge2 && edge2 == edge3 && edge1 == edge3) {
+                System.out.println("an equilateral triangle.");
+            }
+            if (edge1 == edge2 || edge2 == edge3 || edge1 == edge3) {
+                System.out.println("an isosceles triangle.");
+            }
+            if (edge1 != edge2 && edge2 != edge3 && edge1 != edge3) {
+                System.out.println("a scalene triangle.");
+            }
+        }
+        if (isittriangle != 1){
+        System.out.println("These edges do not form a triangle.");
+        }else{
+            int perimeter = edge1 + edge2 + edge3;
+            System.out.println("Perimeter of this trianle is " + perimeter);
+        }
+        myObj.close();
+    }
+}
+```
